@@ -395,6 +395,231 @@ footer{
     }
 }
 
+/*Tablet*/
+
+@media (max-width:600px){
+    .header-image{
+        width: 100%;
+        height: 500px;
+    }
+    .navbar{
+        width: 80%;
+        height: 60px;
+        top: 30px;
+        left:50px ;
+    }
+
+.logo{
+    width: 30px;
+    height: 20px;
+}
+
+.navbar ul{
+    gap: 10px;
+    height: 60px;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+}
+.header-text{
+    & h2{
+        font-size: 40px;
+    }
+}
+
+/*Booking Section*/
+
+.booking{
+    width: 90%;
+    height: 450px;
+    background-color: #1a95ba;
+}
+
+.booking-content{
+    display: grid;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.booking-details i{
+    font-size: 2rem;
+}
+
+
+.booking-header p{
+    font-size: 1.5rem;
+}
+
+.date{
+    width: 220px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.date-icon i{
+    font-size: 25px;
+}
+
+.person{
+    display: flex;
+    width: 320px;
+    padding: 1rem;
+    font-size: 10px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10px;
+}
+.person-icon{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+.person-icon i{
+    font-size: 25px;
+}
+
+/*vip image section*/
+
+.vip-image-section {
+    margin-top: 80px;
+    width: 90%;
+    height: 300px;
+    background-color:#F3F3F3 ;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+.grid-container {
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-container img{
+    width: 90%;
+  }
+
+   /*Special Offer Section*/
+.special-offer-section{
+    margin-top: 10px;
+}
+.offer-text{
+    width: 90%;
+    margin: ;
+
+    & h5{
+        font-size: 20px;
+    }
+
+    & h2{
+        font-size: 34px;
+        font-weight: 800;
+        width: 400px;
+    }
+    
+    & p{
+        width: 100%;
+        color: #999;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+.view-all{
+    right: 0;
+    font-size: 18px;
+    top: 150px;
+}
+
+.offer-img-card{
+    display: flex;
+    gap: 5px !important;
+    margin: 0 auto;
+    .img-card{
+        width: 300px;
+        height: 300px;
+    }
+    & h3{
+        font-size: 15px !important;
+    }
+    
+}
+
+/*Footer Section*/
+
+.footer-section{
+    margin-top: 10px;
+    width: 100%;
+    height: 320px;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .promo{
+        margin-top: -10%;
+
+        & h2{
+            font-size: 20px;
+           margin-left: 10px;
+        }
+
+        & input{
+            margin-top: 10px;
+            width: 220px;
+            margin-left: 30px;
+        }
+        & input::placeholder{
+          font-size: 12px;
+        }
+        .btn{
+            width: 88%;
+            margin-left: 30px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        
+    }
+}
+
+.footer-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo{
+    display:none;
+}
+
+.footer-content{
+    width: 380px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 0.5rem;
+    gap: 1rem;
+}
+
+.footer-link{
+    display: ;
+    gap: 0.5rem;
+
+    & a{
+        font-size: 15px;
+    }
+}
+
+.copyright{
+    & p{
+        color: #eeebeb;
+    }
+}
+}
+
+
+
+
 
 
 /*Mobile Responsive*/
